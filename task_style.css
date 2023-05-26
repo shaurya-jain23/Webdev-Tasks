@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'segeo-ui';
+    src: url(segoe-ui-4-cufonfonts/Segoe\ UI.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-row-gap: 2px ;
+
+}
+.box{
+    background-color: #D2D4F2;
+    height: 9.765vh;
+    margin-bottom: 1.36vh;
+    position: relative;
+
+}
+.c{
+    height: 7.26vh;
+    width: 7.26vh;
+    bottom: 1.1vh;
+    left:9.15%;
+    background-color: #BABEFF;
+    border: 0.272vh solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+.num{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125vh;
+    left: 2.77%;
+    top: 3vh;
+}
+.pname{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125vh;
+    left: 17.98%;
+    top: 3vh;
+}
+.score{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125vh;
+    left: 77.98%;
+    top: 3vh;
+}
+
+.first{
+   display: flex;
+   height: 9.765vh;
+   background-color: #656CEC;
+   /* text-align: center; */
+   color: white;
+   justify-content: center;
+   align-items: center;
+   font-family: 'segeo-ui';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 6.25vh;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 33.59vh;
+    background-color: #656CEC;
+    border-radius: 0px 0px 64px 64px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    margin-bottom: 2.24vh;
+}
+.circle1{
+    height: 20.98vh;
+    width: 20.98vh;
+    bottom: 6.314vh;
+    background-color: #BABEFF;
+    border: 0.585vh solid white;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.f{
+   
+    height: 4.19vh;
+    width: 20.98vh;
+    border-radius: 3.5vh ;
+    bottom: 1.19vh;
+    left: 50%;
+    font-size: 2.34vh;
+}
+.name{
+    position: absolute;
+    background-color: #BABEFF;
+    transform: translate(-50%);
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    height: 3.51vh;
+    width: 3.51vh;
+    top: 0.7vh;
+    left: 50%;
+}
+.rank{
+    background-color: #BABEFF;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2{
+    height: 15.625vh;
+    width: 15.625vh;
+    bottom: 5.17vh;
+    left: 27%;
+    background-color: #BABEFF;
+    border: 0.585vh solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+.s{
+   
+   height: 3.125vh;
+   width: 15.23vh;
+   border-radius: 3.5vh ;
+   bottom: 1.19vh;
+   left: 27%;
+   font-size: 1.95vh;
+}
+.two{
+    height: 3.51vh;
+    width: 3.51vh;
+    top: 6.93vh;
+    left: 27%;
+}
+.circle3{
+    height: 15.625vh;
+    width: 15.625vh;
+    /* flex-direction: row-reverse; */
+    bottom: 5.17vh;
+    left: 73%;
+    background-color: #BABEFF;
+    border: 0.585vh solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    
+}
+.t{
+   
+   height: 3.125vh;
+   width: 15.23vh;
+   border-radius: 3.5vh ;
+   bottom: 1.19vh;
+   left: 73%;
+   font-size: 1.95vh;
+}
+.three{
+    height: 3.51vh;
+    width: 3.51vh;
+    top: 6.93vh;
+    left: 73%;
+}
