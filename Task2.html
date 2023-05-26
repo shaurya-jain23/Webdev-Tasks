@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <script src="./task_script.js"></script>
+    <style>
+        @font-face {
+            font-family: 'Segoe UI';
+            src: url(./Segoe\ UI.ttf);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .leaderboard{
+            font-family: 'Segoe UI',cursive;
+            font-size: 6.25vh;
+            border-bottom: 2px solid white;
+            background-color: #656CEC;
+            color: white;
+            height: 9.76vh;
+            text-align: center;
+        }
+        .container{
+            background-color: #656CEC;
+            height: 33.88vh;
+            display: flex;
+            align-content: center;
+            border-radius: 0px 0px 6vh 6vh ;
+        }
+        .first{
+            position:absolute;
+            border: .78vh solid white;
+            border-radius: 50%;
+            /* background-color: #BABEFF; */
+            background-image: '';
+            height: 20.98vh;
+            width: 20.98vh;
+            top:14.74vh;
+            left:50%;
+            right:50%;
+            transform:translate(-50%);
+        }
+        .f{
+            
+            border-radius: 3.5vh;
+            width: 20.98vh;
+            height: 4.19vh;
+            top:38vh;
+            left:50%;
+            right:50%;
+            font-size: 1.34vh;
+
+        }
+        .cir{
+            position:absolute;
+            background-color: #BABEFF;
+            color: white;
+            transform:translate(-50%);
+            font-family: 'Inter', sans-serif;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content:  center ;
+        }
+        .second{
+            position:absolute;
+            border: .58vh solid white;
+            border-radius: 50%;
+            /* background-color: #BABEFF; */
+            height: 15.625vh;
+            width: 15.625vh;
+            top:21.679vh;
+            background-image: '';
+            left:27%;
+            transform:translate(-50%);
+        }
+        .s{
+            border-radius: 1.5625vh;
+            width: 15.625vh;
+            height: 3.125vh;
+            top:39.5742vh;
+            left:27%;
+            font-size: 1.2vh;
+        }
+        .sr1{
+            position: absolute;
+            font-size: 106%;
+            left: 69%;
+        }
+        .third{
+            position:absolute;
+            border: .58vh solid white;
+            background-image: '';
+            border-radius: 50%;
+            /* background-color: #BABEFF; */
+            height: 15.625vh;
+            width: 15.625vh;
+            top:21.679vh;
+            left:73%;
+            transform:translate(-50%);
+        }
+        .t{
+            border-radius: 1.5625vh;
+            width: 15.625vh;
+            height: 3.125vh;
+            top:39.5742vh;
+            left:73%;
+            font-size: 2vh;
+        }
+        .rank1{
+            background-color:#D2D4F2;
+            color:black;
+            height: 9.76vh;
+            width:100vw;
+            margin-top: 2.24vh;
+            display: flex;
+            align-items: center;
+        }
+         .rank{
+            background-color:#D2D4F2;
+            color:black;
+            height: 9.76vh;
+            width:100vw;
+            margin-top: 1.36vh;
+            display: flex;
+            align-items: center;
+        }
+        .circle{
+            position:absolute;
+            border: .27vh solid white;
+            border-radius: 50%;
+            /* background-color: #BABEFF; */
+            background-image: '';
+            transform:translate(-50%);
+            height: 7.26vh;
+            width: 7.26vh;
+            left:9.2%;
+        }
+        .d{
+            position: absolute;
+            border-radius: 50%;
+            background-color: #BABEFF;
+            color: white;
+            transform:translate(-50%);
+            font-family: 'Inter', sans-serif;
+            height: 3.5vh;
+            width: 3.5vh;
+            display: flex;
+            align-items: center;
+            justify-content:  center ;
+            font-size: 2.35vh;
+        }
+        .a{
+            top:10.25vh;
+            left:50%;
+            right:50%;
+        }
+        .b{
+            top:17vh;
+            left:27%;
+        }
+        .c{
+            top:17vh;
+            left:73%;
+
+        }
+        .score{
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            left: 77.76vw;
+            font-size: 3.1vh;
+            transform:translate(-50%);
+        }
+
+        .num{
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            left: 2.7vw;
+            font-size: 3.1vh;
+        }
+        .name{
+            font-family: 'Inter', sans-serif;
+            position: absolute;
+            left: 17.708vw;
+            font-size: 3.1vh;
+        }
+        .dot{
+            position: absolute;
+            background-color: white;
+            height: .4vh;
+            width: .4vh;
+            left: 60%;
+            border-radius: 50%;
+        }
+        .name2{
+            position: absolute;
+            left: 13%;
+            font-size: 93%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="leaderboard">
+        Leaderboard
+    </div>
+    <div class="container">
+            <div class="d a">1</div>
+            <div class="d b">2</div>
+            <div class="d c">3</div>
+            <div class="first" id="rank1"></div>
+            <div class="f cir">
+                <div class="name1" style="position: absolute; left: 15%;" id="rank1name">Amanda</div> 
+                <div class="sr2" style="position: absolute; left: 73%; font-size: 2.5vh;" id="rank1score">764 </div>
+                <div class="dot" style="left: 68%;"></div>
+            </div>
+            
+
+            <div class="second" id="rank2"></div>
+            <div class="s cir">
+                <div class="name2" id="rank2name" style="font-size: 1.2vh; left: 17%;">Jeremy</div>
+                <div class="dot" style="left:63% "></div>
+                <div class="sr1" id="rank2score">672</div>
+            </div>
+            <div class="third" id="rank3"></div>
+            <div class="t cir" >
+                <div class="name2" style="left:11% ; font-size: 56%;" id="rank3name">Jefferey</div>
+                <div class="sr1" id="rank3score">542</div>
+                <div class="dot" style="left: 61%;"></div>
+            </div>
+    </div>
+    <div class="rank1">
+        <div class="num">4</div>
+        <div class="name" id="rank4name">Joe</div>
+        <div class="score" id="rank4score">445</div>
+        <div class="circle" id="rank4"></div>
+    </div>
+    <div class="rank">
+        <div class="num">5</div>
+        <div class="name" id="rank5name">Jenny</div>
+        <div class="score" id="rank5score">438</div>
+        <div class="circle" id="rank5"></div>
+        
+    </div>
+    <div class="rank">
+        <div class="num">6</div>
+        <div class="score" id="rank6score">432</div>
+        <div class="name" id="rank6name">Josh</div>
+        <div class="circle " id="rank6"></div>
+        
+    </div>
+    <div class="rank">
+        <div class="num">7</div>
+        <div class="score" id="rank7score">321</div>
+        <div class="name" id="rank7name">Stella</div>
+        <div class="circle" id="rank7"></div>
+        
+    </div>
+    <div class="rank">
+        <div class="num">8</div>
+        <div class="circle" id="rank8"></div>
+        <div class="score" id="rank8score" id="rank8name">300</div>
+        <div class="name" id="rank8name">Sally</div>
+        
+    </div>
+    </body>
+</html>
