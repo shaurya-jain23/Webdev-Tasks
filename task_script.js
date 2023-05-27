@@ -12,9 +12,9 @@ fetch('https://www.coursehubiitg.in/api/codingweek/contributions')
       const avatar = data[val].avatar;
     
       console.log(val)
-      document.getElementById(`rank${val+1}score`).innerHTML = points;
-      document.getElementById(`rank${val+1}name`).innerHTML = name;
-      document.getElementById(`rank${val+1}`).style.backgroundImage = `url(${avatar})`;
+      document.getElementById(`box${val+1}score`).innerHTML = points;
+      document.getElementById(`box${val+1}pname`).innerHTML = name;
+      document.getElementById(`box${val+1}`).style.backgroundImage = `url(${avatar})`;
       
       // Do whatever you want with the details
       console.log('Name:', name);

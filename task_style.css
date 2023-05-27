@@ -86,7 +86,8 @@
     height: 20.98vh;
     width: 20.98vh;
     bottom: 6.314vh;
-    background-color: #BABEFF;
+    /* background-color: #BABEFF; */
+    background-image: "";
     border: 0.585vh solid white;
     left: 50%;
     transform: translate(-50%);
@@ -101,7 +102,7 @@
     border-radius: 3.5vh ;
     bottom: 1.19vh;
     left: 50%;
-    font-size: 2.34vh;
+    font-size: 1.8vh;
 }
 .name{
     position: absolute;
@@ -141,7 +142,8 @@
     width: 15.625vh;
     bottom: 5.17vh;
     left: 27%;
-    background-color: #BABEFF;
+    /* background-color: #BABEFF; */
+    background-image: "";
     border: 0.585vh solid white;
     border-radius: 50%;
     position: absolute;
@@ -154,7 +156,7 @@
    border-radius: 3.5vh ;
    bottom: 1.19vh;
    left: 27%;
-   font-size: 1.95vh;
+   font-size: 1.6vh;
 }
 .two{
     height: 3.51vh;
@@ -168,7 +170,8 @@
     /* flex-direction: row-reverse; */
     bottom: 5.17vh;
     left: 73%;
-    background-color: #BABEFF;
+    /* background-color: #BABEFF; */
+    background-image: "";
     border: 0.585vh solid white;
     border-radius: 50%;
     position: absolute;
@@ -182,7 +185,7 @@
    border-radius: 3.5vh ;
    bottom: 1.19vh;
    left: 73%;
-   font-size: 1.95vh;
+   font-size: 1.6vh;
 }
 .three{
     height: 3.51vh;
