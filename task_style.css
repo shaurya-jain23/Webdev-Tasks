@@ -24,6 +24,8 @@
     bottom: 1.1vh;
     left:9.15%;
     background-color: #BABEFF;
+    background-image: "";
+    background-size: 7.125vh;
     border: 0.272vh solid white;
     border-radius: 50%;
     position: absolute;
@@ -88,6 +90,7 @@
     bottom: 6.314vh;
     /* background-color: #BABEFF; */
     background-image: "";
+    background-size: 20.625vh;
     border: 0.585vh solid white;
     left: 50%;
     transform: translate(-50%);
@@ -144,6 +147,7 @@
     left: 27%;
     /* background-color: #BABEFF; */
     background-image: "";
+    background-size: 15.125vh;
     border: 0.585vh solid white;
     border-radius: 50%;
     position: absolute;
@@ -172,6 +176,7 @@
     left: 73%;
     /* background-color: #BABEFF; */
     background-image: "";
+    background-size: 15.125vh;
     border: 0.585vh solid white;
     border-radius: 50%;
     position: absolute;
